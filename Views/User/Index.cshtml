@@ -1,0 +1,9 @@
+﻿@using HW_ASP.Models
+@model List<User>
+
+<ul>
+    @foreach (var user in Model)
+        {
+        <li>@(user.FullName + "-" + user.Age + "-" + user.Address)</li>
+        }
+</ul>

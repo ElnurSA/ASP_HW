@@ -1,0 +1,9 @@
+﻿@using HW_ASP.Models
+@model List<Product>
+
+<ul>
+    @foreach (var product in Model)
+    {
+        <li>@(product.Name + "-" + product.Description + "-" + product.Price)</li>
+    }
+</ul>

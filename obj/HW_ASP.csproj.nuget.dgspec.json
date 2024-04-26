@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/safiyevelnur/Desktop/HW_ASP/HW_ASP.csproj": {}
+  },
+  "projects": {
+    "/Users/safiyevelnur/Desktop/HW_ASP/HW_ASP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/safiyevelnur/Desktop/HW_ASP/HW_ASP.csproj",
+        "projectName": "HW_ASP",
+        "projectPath": "/Users/safiyevelnur/Desktop/HW_ASP/HW_ASP.csproj",
+        "packagesPath": "/Users/safiyevelnur/.nuget/packages/",
+        "outputPath": "/Users/safiyevelnur/Desktop/HW_ASP/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/safiyevelnur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

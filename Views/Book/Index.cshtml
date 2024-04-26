@@ -1,0 +1,9 @@
+﻿@using HW_ASP.Models
+@model List<Book>
+
+<ul>
+    @foreach (var b in Model)
+    {
+        <li>@(b.Name)</li>
+    }
+</ul>
